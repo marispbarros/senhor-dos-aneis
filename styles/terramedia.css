@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: "Crimson Text", serif; 
+    background-image: url(/img/valinor_arvores.jpg);
+    background-color: rgba(0, 0, 0, 0.199); 
+    background-blend-mode: multiply;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    color: rgb(99,65,31);
+    text-align: center; 
+    letter-spacing: 0.4rem;
+}
+
+section {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 3rem;
+}
+
+section input {
+    width: 30rem; 
+    border: none; 
+    padding: 1rem;
+    border-radius: 1.5rem; 
+    margin-bottom: 1rem;
+    color: #45474B; 
+    background-color: rgb(251,249,230, 0.8);
+    font-size: 1rem; 
+    box-sizing: border-box; 
+}
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: rgb(118,90,69);
+    color: #F5F7F8; 
+    font-size: 1rem; 
+    cursor: pointer;
+}
+
+.pesquisa {
+  width: 60rem; 
+  height: 46vh;
+  overflow-y: auto; 
+  margin-top: 1rem; 
+  padding: 1rem;
+  border-radius: 0.6rem; 
+}
+
+.item-resultado {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0.6rem; 
+  padding: 1rem; 
+  margin-bottom: 1rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.item-resultado h2 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.item-resultado a {
+  text-decoration: none; 
+  color: rgb(214,183,148); 
+}
+
+.item-resultado a:hover {
+  text-decoration: underline;
+}
+
+.descricao-meta {
+  color: rgba(255, 255, 255, 0.8); 
+  margin: 0.5rem 0; 
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.377);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center; 
+  padding: 0;
+  width: 100%; 
+  position: absolute; 
+  bottom: 0; 
+  font-size: 1rem;
+}
